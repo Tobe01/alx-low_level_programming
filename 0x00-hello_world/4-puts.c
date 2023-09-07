@@ -1,9 +1,17 @@
 #include <stdio.h>
 
-int main() {
-    //Use the puts function to print the text
-    puts("Programming is like building a multilingual puzzle");
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (success)
+ *
+ */
 
-    // Return 0 to indicate successful program execution
-    return 0;
+int main(void) 
+{
+    
+    puts("\"Programming is like building a multilingual puzzle");
+
+    
+    return (0);
 }
