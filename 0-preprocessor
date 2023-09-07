@@ -1,2 +1,2 @@
 #!/bin/bash
-./preprocess_c_file.sh input.c output.c
+gcc -E $CFILE -o c
