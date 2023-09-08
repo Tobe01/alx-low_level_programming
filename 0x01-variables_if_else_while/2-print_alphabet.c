@@ -17,7 +17,7 @@ while (j < 58)
 {
 putchar(i);
 putchar(j);
-if (i !=56)
+if (i != 56)
 {
 putchar(',');
 putchar(' ');
