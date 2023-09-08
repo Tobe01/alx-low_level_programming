@@ -1,18 +1,18 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - entry point
  *
- * Description: prints from 0 - 9
+ * Description: prints alphabets backwords
  *
  * Return: 0
  */
 int main(void)
 {
-int i = 48;
-while (i < 58)
+int i = 122;
+while (i > 96)
 {
 putchar(i);
-i++;
+i--;
 }
 putchar('\n');
 return (0);
