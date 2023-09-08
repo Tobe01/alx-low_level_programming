@@ -1,29 +1,17 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Entry point
  *
- * Description: prints all possible different combinations of two digits.
+ * Description: programme for printing the alphabet
  *
- * Return: 0
- *
+ * Return: always 0
  */
 int main(void)
 {
-int i = 48;
-while (i < 58)
-{
-int j = i + 1;
-while (j < 58)
+int i = 97;
+while (i < 123)
 {
 putchar(i);
-putchar(j);
-if (i != 56)
-{
-putchar(',');
-putchar(' ');
-}
-j++;
-}
 i++;
 }
 putchar('\n');
